@@ -1,6 +1,4 @@
 #!/bin/sh
 root="github.com/vibovenkat123/go-tut"
-echo "name: "
-read filename
-
+filename=$1
 go run $root/cmd/$filename

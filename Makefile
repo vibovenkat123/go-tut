@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := build
 run: 
-	@./scripts/run.sh
+	@ ./scripts/run.sh $(name)
 build:
-	@./scripts/build.sh
+	@ ./scripts/build.sh $(name)
